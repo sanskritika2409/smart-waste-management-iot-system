@@ -1,86 +1,125 @@
+# 🚮 Smart Waste Management & Bin Level Detection System  
+### 🌍 IoT + AI + Smart City Monitoring Dashboard
 
-🚮 Smart Waste Management & Bin Level Detection System
-🌍 IoT + AI + Smart City Monitoring Dashboard
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-Web_App-black?logo=flask)
+![Machine Learning](https://img.shields.io/badge/ML-ScikitLearn-yellow?logo=scikitlearn)
+![IoT](https://img.shields.io/badge/IoT-Simulation-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
+---
 
+## 🌍 Project Overview
+This project is a Smart City IoT system that simulates waste bin monitoring using sensors, predicts bin fill levels using AI, and displays real-time analytics through a Flask dashboard.
 
+It demonstrates integration of IoT + AI + Data Analytics for smart waste management solutions.
 
+---
 
+## 📸 Screenshots
 
+### 📊 Dashboard View
+![Dashboard](images/dashboard.png)
 
+---
 
+### 📈 Analytics Charts
+![Charts](images/charts.png)
 
+---
 
+### 🗺️ Smart City Map
+![Map](images/map.png)
 
+---
 
-🌍 Overview
+### 🤖 AI Prediction System
+![AI](images/ai.png)
 
-An IoT + AI based Smart Waste Management System that simulates real-time garbage bin monitoring, performs predictive analytics, and visualizes smart city insights using an interactive Flask dashboard.
+---
 
-📸 Project Preview
-📊 Live Dashboard
+## 🎯 Features
+- 📊 Real-time Flask Dashboard
+- 📈 Interactive Charts (Chart.js)
+- 🗺️ Smart City Map Visualization (Folium)
+- 🤖 AI-based Bin Fill Prediction
+- 📡 IoT Data Simulation
+- 📁 CSV Data Logging
+- ⚡ Auto Refresh Live System
+- 🧠 Analytics Engine
 
-📈 Analytics Charts
+---
 
-🗺️ Smart City Map View
+## 🛠️ Tech Stack
+- Python 3
+- Flask
+- Pandas
+- NumPy
+- Scikit-learn
+- Chart.js
+- Folium
+- MQTT (paho-mqtt)
+- HTML + CSS
 
-🤖 AI Prediction System
+---
 
-🎯 Features
-📊 Real-time Flask Dashboard (Dark UI)
-📈 Live Charts using Chart.js
-🗺️ Smart City Map Visualization (Folium)
-🤖 AI-based Bin Fill Prediction
-📡 MQTT IoT Simulation
-⚡ Auto-refresh Live Monitoring
-📁 CSV-based Data Logging
-🧠 Machine Learning Analytics Engine
-📱 Fully Responsive UI
-🏗️ System Architecture
-Sensor Simulation → Data Logger → Analytics Engine → AI Prediction → Flask Dashboard → Map Visualization → Alerts System
-🛠️ Tech Stack
-Layer	Technology
-Backend	Python, Flask
-Data Handling	Pandas, NumPy
-Machine Learning	Scikit-learn
-Frontend	HTML, CSS, Chart.js
-IoT	MQTT (paho-mqtt)
-Visualization	Folium
-🚀 How to Run
-1️⃣ Clone Repo
-git clone https://github.com/your-username/smart-waste-iot.git
-cd smart-waste-iot
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-3️⃣ Generate Data
+## 🏗️ System Architecture
+Sensor Simulation → Data Logging → AI Processing → Flask Dashboard → Map Visualization → Alerts System
+
+---
+
+## 🚀 How to Run
+
+### 1. Install Dependencies
+pip install flask pandas numpy scikit-learn folium paho-mqtt
+
+### 2. Generate Sensor Data
 python python_simulation/advanced_simulator.py
-4️⃣ Run Dashboard
+
+### 3. Run Dashboard
 python python_simulation/live_dashboard.py
 
-Open in browser:
-
+Open:
 http://127.0.0.1:5000
-5️⃣ Run AI Model
+
+### 4. Run AI Model
 python python_simulation/ai_predictor.py
-6️⃣ Open Map View
+
+### 5. Open Map View
 outputs/smart_city_map.html
-🧠 Project Workflow
-IoT Sensor Simulation generates bin data
-Data stored in CSV logs
-Analytics engine processes trends
-AI model predicts fill level
-Flask dashboard visualizes results
-Map shows smart city bins
-🚀 Future Enhancements
-🚀 Real ESP32 hardware integration
-☁️ Cloud deployment (AWS / Azure)
-📱 Mobile app version
-🗺️ Google Maps live tracking
-🚛 Route optimization system
-👨‍💻 Author
 
-Smart IoT Project | Portfolio System
+---
 
-⭐ Support
+## 📁 Project Structure
+Smart-Waste-Management-System/
+│
+├── images/
+├── data/
+├── outputs/
+├── python_simulation/
+├── dashboard/
+├── reports/
+├── arduino_code/
+├── main.py
+├── README.md
+└── requirements.txt
 
-If you like this project, give it a ⭐ on GitHub to support smart city innovation 🚀"GITHUB TEST UPDATE 999" 
+---
+
+## 🚀 Future Improvements
+- Real ESP32 Hardware Integration
+- Cloud Deployment (AWS / Azure)
+- Mobile App Version
+- Google Maps Live Tracking
+- Smart Route Optimization
+
+---
+
+## 👨‍💻 Author
+Smart IoT Project | Student Portfolio Work
+
+---
+
+## ⭐ Support
+If you like this project, please give a ⭐ on GitHub to support smart city innovation 🚀
