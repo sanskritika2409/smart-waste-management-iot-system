@@ -64,19 +64,32 @@ Open:
 outputs/smart_city_map.html
 📸 Screenshots
 ## 📸 Screenshots
-## 📸 Screenshots
 
-### Dashboard
-![Dashboard](images/dashboard.png)
+### 📊 Dashboard
+<p align="center">
+  <img src="images/dashboard.png" width="900"/>
+</p>
 
-### Charts
-![Charts](images/charts.png)
+---
 
-### Map View
-![Map](images/map.png)
+### 📈 Charts
+<p align="center">
+  <img src="images/charts.png" width="900"/>
+</p>
 
-### AI Prediction
-![AI](images/ai.png)
+---
+
+### 🗺️ Map View
+<p align="center">
+  <img src="images/map.png" width="900"/>
+</p>
+
+---
+
+### 🤖 AI Prediction
+<p align="center">
+  <img src="images/ai.png" width="900"/>
+</p>
 🚀 Future Improvements
 Real ESP32 hardware integration
 Google Maps live tracking
